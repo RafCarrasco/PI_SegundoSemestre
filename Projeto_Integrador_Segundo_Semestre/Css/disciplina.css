@@ -1,0 +1,64 @@
+#identificador_foto_usuario {
+    visibility: hidden;
+}
+
+.sl{
+    color: aliceblue;
+}
+.tamPer{
+    font-size: 40px;
+}
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.diferentes_perguntas:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tamNam{
+    font-size: 30px;
+}
+.dist0{
+    margin-left: 12%;
+}
+.botoes{
+    position: relative;
+    left: 88%;
+    bottom: 300px;
+}
+.botao_cima{
+    margin-left: 6%;
+    
+}
+.botao_baixo{
+    width: 50px;
+    margin-left: 6%;
+}
+
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #3086d6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 990px) {
+    .select_options{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .select_options{
+        font-size: 10px;
+    }
+}
+
